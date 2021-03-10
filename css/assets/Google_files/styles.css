@@ -46,32 +46,6 @@ a {
 
 .middle {
     margin: auto;
-    margin-top: 200px;
-    width: 50%;
-    text-align: center;
     position: center ;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5fr 1fr 1fr;
-    row-gap: 40px ;
-    grid-template-areas:
-    "a a"
-    "b b"
-    "c d";
-}
-.logo-google {
-    grid-area: a;
-}
-.zoekbalk {
-    grid-area: b;
-}
-.google-search-submit {
-    grid-area: c;
-    justify-self: end;
-    margin-right: 5px;
-}
-.feeling-lucky-submit {
-    grid-area: d;
-    justify-self: start;
-    margin-left: 5px;
 }
